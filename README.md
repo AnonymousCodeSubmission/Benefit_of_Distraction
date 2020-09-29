@@ -8,7 +8,7 @@ A demo of this code will run on sample sequences from one video of the MMSE-HR d
 <img src = “Data/denoising_architecture8.pdf”>
 
 ## Example result
-<img src = “Data/Overview_fig3.png”>
+<img src = “Overview_fig3.png”>
 
 The code is currently implemented in several separate steps:
 
