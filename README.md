@@ -5,10 +5,10 @@ Please download the MMSE-HR dataset (Z. Zhang, J. Girard, Y. Wu, X. Zhang, P. Li
 A demo of this code will run on sample sequences from one video of the MMSE-HR dataset.
 
 ## The architecture of our proposed denoising approach
-<img src = “Data/denoising_architecture8.pdf”>
+<!-- <img src = “Data/denoising_architecture8.pdf”> -->
 
 ## Example result
-<img src = “Overview_fig3.png”>
+![alt text](“Data/Overview_fig3.png”)
 
 The code is currently implemented in several separate steps:
 
