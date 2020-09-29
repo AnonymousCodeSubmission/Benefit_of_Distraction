@@ -8,7 +8,7 @@ A demo of this code will run on sample sequences from one video of the MMSE-HR d
 <!-- <img src = “Data/denoising_architecture8.pdf”> -->
 
 ## Example result
-![alt text](“Data/Overview_fig3.png”)
+![alt text](“https://github.com/AnonymousCodeSubmission/Benefit_of_Distraction/blob/master/Data/Overview_fig3.png”)
 
 The code is currently implemented in several separate steps:
 
