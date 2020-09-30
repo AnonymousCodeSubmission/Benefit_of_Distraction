@@ -1,14 +1,17 @@
 # Benefit_of_Distraction
+We present a denoising method which uses regions ignored by attention masks as noise estimates to uses them to denoise temporal signals of interest. We present results on the task of camera-based heart rate and breathing rate estimation. 
 
-Please download the MMSE-HR dataset (Z. Zhang, J. Girard, Y. Wu, X. Zhang, P. Liu, U. Ciftci, S. Canavan, M. Reale, A. Horowitz, H. Yang, J. F. Cohn, Q. Ji, and L. Yin. Multimodal spontaneous emotion corpus for human behavior analysis. In CVPR, 2016.) to train models from scratch.
-
-A demo of this code will run on sample sequences from one video of the MMSE-HR dataset.
+See this video for a summary of our approach and example results: https://ippg.blob.core.windows.net/videos/ICLR_video_Benefit_of_distraction.mp4
 
 ## The architecture of our proposed denoising approach
 <img src = Data/Architecture.png>
 
 ## Example result
 <img src = Data/Overview.png>
+
+Please download the MMSE-HR dataset (Z. Zhang, J. Girard, Y. Wu, X. Zhang, P. Liu, U. Ciftci, S. Canavan, M. Reale, A. Horowitz, H. Yang, J. F. Cohn, Q. Ji, and L. Yin. Multimodal spontaneous emotion corpus for human behavior analysis. In CVPR, 2016.) to train models from scratch.
+
+A demo of this code will run on sample sequences from one video of the MMSE-HR dataset.
 
 The code is currently implemented in several separate steps:
 
