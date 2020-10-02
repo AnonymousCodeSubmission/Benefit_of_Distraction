@@ -1,7 +1,7 @@
 # Benefit_of_Distraction
 We present a denoising method which uses regions ignored by attention masks as noise estimates to uses them to denoise temporal signals of interest. We present results on the task of camera-based heart rate and breathing rate estimation. 
 
-See this video for a summary of our approach and example results: https://ippg.blob.core.windows.net/videos/ICLR_video_Benefit_of_distraction.mp4
+See this video for a summary of our approach and example results: https://ippg.blob.core.windows.net/videos/benefitofdistraction.mp4
 
 ## The architecture of our proposed denoising approach
 <img src = Data/Architecture.png>
