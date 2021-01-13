@@ -3,6 +3,8 @@ We present a denoising method which uses regions ignored by attention masks as n
 
 See this video for a summary of our approach and example results: https://ippg.blob.core.windows.net/videos/benefitofdistraction.mp4
 
+Supplementary Material: 
+
 ## The architecture of our proposed denoising approach
 <img src = Data/Architecture.png>
 
