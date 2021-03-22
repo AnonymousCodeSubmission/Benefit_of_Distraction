@@ -6,13 +6,13 @@ See this video for a summary of our approach and example results: https://ippg.b
 ## Supplementary Material: https://github.com/AnonymousCodeSubmission/Benefit_of_Distraction/blob/master/SupplementaryMaterial.pdf
 
 ## The architecture of our proposed denoising approach
-<img src = Data/Architecture.png>
+<img src = Data/denoising_architecture8_corr.pdf>
 
 ## Example result
 <img src = Data/Overview.png>
 
 ## Example result
-<img src = Data/Masks.png>
+<img src = Data/Masks_Examples4_corr.pdf>
 
 ## To reproduce our results:
 
