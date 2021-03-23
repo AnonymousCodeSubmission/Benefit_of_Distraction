@@ -29,21 +29,30 @@ The code is currently implemented in several separate steps:
 Load a pre-trained convolutional attention network (CAN) model to extract heart rate (HR) or breathing rate (BR), output a pulse or respiration signal, and an attention mask showing which regions in an image were used to compute the physiological signals.
 
 For HR:
+```
 $ python get_HR/get_initial_HR_load_CAN_model.py
+```
 
 For BR:
+```
 $ python get_BR/get_initial_BR_load_CAN_model.py
+```
 
 Or train a CAN model from scratch:
 For HR:
+```
 $ python get_HR/Training/get_initial_HR_train_CAN_model.py
+```
 
 For BR:
+```
 $ python get_BR/Training/get_initial_BR_train_CAN_model.py
+```
 
 ## 2. Compute corruption estimates:
 
-MATLAB: $ run get_noise_estimates.m
+MATLAB: 
+```$ run get_noise_estimates.m```
 
 It computes the inverse attention masks from the original attention masks and corruption estimates for each R,G,B camera channel by elementwise multiplying the inverse attention masks with the video frames.
 
@@ -51,23 +60,32 @@ It computes the inverse attention masks from the original attention masks and co
 
 Load a pre-trained LSTM model to denoise signals
 For HR:
+```
 $ python get_HR/denoising_LSTM_load_model.py
+```
 
 For BR:
+```
 $ python get_BR/denoising_LSTM_load_model.py
+```
 
 Or train LSTM from scratch:
 For HR:
+```
 $ python get_HR/Training/denoising_LSTM_train_model.py
+```
 
 For BR:
+```
 $ python get_BR/Training/denoising_LSTM_train_model.py
+```
 
 ## 4. Print the results:
 
 Compute the HR or BR and error metrics (MAE, RMSE, correlation coefficient, SNR, Wave MAE) from the denoised physiological signal. 
 
-MATLAB: $ run print_result.m
+MATLAB: 
+```$ run print_result.m```
 
 ## Data
 The Data folder contains a short sequence of video frames as an example in example_video, along with the corresponding attention_mask (attention_mask.mat) and estimated pulse signal (BVP_estimate_from_CAN.mat) output by CAN. Example R, G, B noise estimates, estimated, and ground truth BVP signals are provided in Noise_masks_red_tr, Noise_masks_green_tr, Noise_masks_blue_tr folders for training and Noise_masks_red_ts, Noise_masks_green_ts, Noise_masks_blue_ts for testing. 
