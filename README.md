@@ -5,7 +5,8 @@ Attention networks are commonly used in computer vision and they often perform s
 
 See this video for a summary of our approach and example results: 
 
-<img src = video_Benefit_of_distraction.mov> 
+
+
 
 ## Supplementary Material: https://github.com/AnonymousCodeSubmission/Benefit_of_Distraction/blob/master/SupplementaryMaterial.pdf
 
