@@ -1,4 +1,4 @@
-# Benefit_of_Distraction
+# The Benefit of Distraction: Denoising Camera-Based Physiological Measurements using Inverse Attention
 We present a denoising method which uses regions ignored by attention networks as corruption estimates to denoise temporal signals of interest. We present results on the task of camera-based heart rate and breathing rate estimation. 
 
 See this video for a summary of our approach and example results: https://ippg.blob.core.windows.net/videos/benefitofdistraction.mp4
@@ -45,7 +45,7 @@ MATLAB: $ run get_noise_estimates.m
 
 It computes the inverse attention masks from the original attention masks and corruption estimates for each R,G,B camera channel by elementwise multiplying the inverse attention masks with the video frames.
 
-## 3. Denoise the BVP signals using the noise estimates
+## 3. Denoise the physiological signals using the noise estimates
 
 Load a pre-trained LSTM model to denoise signals
 For HR:
